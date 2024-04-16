@@ -1,3 +1,87 @@
-h1 {
+/* h1 {
   background-color: lightseagreen;
+} */
+
+/* Global Style */
+li {
+  list-style: none;
+}
+
+body,
+.contents,
+.header,
+.header-row,
+.header-notification-logo,
+.header-greeting,
+.header-buttons {
+  display: flex;
+}
+
+.contents,
+.header {
+  flex-direction: column;
+}
+
+/* Sidebar Style */
+
+.sidebar {
+  background-color: lightseagreen;
+}
+
+/* Header Style */
+
+.header {
+  background-color: lightgoldenrodyellow;
+}
+
+.header-row {
+  justify-content: space-between;
+}
+
+/* Main Contents Style */
+
+.main-content {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 3fr) repeat(1, 2fr);
+  grid-template-rows: repeat(1, 1fr) repeat(12, 1fr);
+}
+
+.projects-title,
+.project-list {
+  background-color: lightpink;
+}
+
+.projects-title {
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+.project-list {
+  grid-area: 2 / 1 / 14 / 3;
+}
+
+.announcements-title,
+.announcements-list {
+  background-color: lightgrey;
+}
+
+.announcements-title {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.announcements-list {
+  grid-area: 2 / 3 / 8 / 4;
+}
+
+.trending-title,
+.trending-list {
+  background-color: lightcyan;
+}
+
+.trending-title {
+  grid-area: 8 / 3 / 9 / 4;
+}
+
+.trending-list {
+  grid-area: 9 / 3 / 14 / 4;
 }
