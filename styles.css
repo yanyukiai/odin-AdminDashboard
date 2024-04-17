@@ -17,15 +17,57 @@ body,
   display: flex;
 }
 
+.sidebar,
+.sidebar-title,
+.sidebar-menu,
+.menu {
+  display: grid;
+}
+
 .contents,
 .header {
   flex-direction: column;
+}
+
+.TBD-icon {
+  width: 15px;
+  height: 100%;
 }
 
 /* Sidebar Style */
 
 .sidebar {
   background-color: lightseagreen;
+  gap: 25px;
+  grid-template-rows: repeat(1, 50px) repeat(2, 200px);
+}
+
+.sidebar-title,
+.sidebar-menu {
+  background-color: lightgrey;
+  margin: 0px;
+  padding: 12px;
+}
+
+.sidebar-title,
+.menu {
+  grid-template-columns: repeat(1, 1fr) repeat(1, 5fr);
+}
+
+.sidebar-menu {
+  grid-template-rows: repeat(6, 30px);
+}
+
+.menu {
+  align-items: center;
+}
+
+.dashboard {
+  font-size: 18px;
+}
+
+.menu {
+  font-size: 80%;
 }
 
 /* Header Style */
