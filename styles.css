@@ -22,6 +22,7 @@ body,
 .content-title,
 .project-list,
 .announcements-list,
+.announcements-content,
 .trending-list,
 .hot-uesr {
   display: grid;
@@ -41,16 +42,18 @@ body {
 
 .sidebar {
   grid-area: 1 / 1 / 3 / 2;
-  background-color: lightseagreen;
+  background-color: #14b8a6;
   gap: 25px;
   grid-template-rows: repeat(1, 50px) repeat(2, 200px);
 }
 
 .sidebar-title,
 .sidebar-menu {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   margin: 0px;
   padding: 12px;
+  color: whitesmoke;
+  font-weight: 500;
 }
 
 .sidebar-title,
@@ -77,8 +80,8 @@ body {
 /* Header Style */
 
 .header {
+  /* background-color: lightgoldenrodyellow; */
   grid-area: 1 / 2 / 2 / 3;
-  background-color: lightgoldenrodyellow;
   grid-template-rows: 1fr 1fr;
   margin: 0px;
   padding: 10px 30px 10px;
@@ -92,14 +95,25 @@ body {
 .header-row-2 {
   grid-template-columns: 0.5fr 5.5fr repeat(3, 1fr);
   align-items: center;
+  gap: 5px;
+}
+
+button {
+  background-color: #14b8a6;
+  border: none;
+  border-radius: 12px;
+  height: 30px;
+  width: 90px;
+  color: whitesmoke;
 }
 
 /* Main Contents Style */
 
 .main-content {
+  background-color: #e5e7eb;
   grid-area: 2 / 2 / 3 / 3;
   gap: 15px;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
 }
 
@@ -111,45 +125,63 @@ body {
 }
 
 .content-title {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   align-items: center;
 }
 
 .your-projects {
-  background-color: lightpink;
+  /* background-color: lightpink; */
   grid-area: 1 / 1 / 3 / 2;
-}
-
-.announcements {
-  background-color: lightgrey;
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-.trending {
-  background-color: lightcyan;
-  grid-area: 2 / 2 / 3 / 3;
 }
 
 .project-list {
   padding: 0px;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-  gap: 15px;
+  gap: 20px;
+  margin: 0px;
 }
 
 .project {
-  background-color: wheat;
+  background-color: white;
   padding: 20px 15px 20px;
+  border-radius: 10px;
+  border-left-style: inset;
+  border-left-color: #16a34a;
+  border-left-width: 8px;
+}
+
+.announcements {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.announcements-content {
+  background-color: white;
+  padding: 10px 30px 0px;
+  border-radius: 10px;
 }
 
 .announcements-list {
-  background-color: wheat;
-  padding: 20px 15px 20px;
+  background-color: lightgray;
+  padding: 0px;
+  grid-gap: 2px;
+}
+
+.announcement {
+  background-color: white;
+  padding-top: 5px;
 }
 
 .trending-list {
-  background-color: wheat;
+  background-color: white;
   padding: 20px 15px 20px;
   align-items: center;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.trending {
+  /* background-color: lightcyan; */
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .hot-uesr {
