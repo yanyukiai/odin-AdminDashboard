@@ -26,6 +26,7 @@ body,
 .trending-list,
 .hot-uesr {
   display: grid;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -42,12 +43,6 @@ body {
   width: 15px;
   height: 100%;
   filter: brightness(0%) invert(1);
-}
-
-.user-icon {
-  /* width: 15px; */
-  height: 60%;
-  filter: brightness(0%);
 }
 
 /* Sidebar Style */
@@ -98,7 +93,7 @@ body {
   grid-template-rows: 1fr 1fr;
   margin: 0px;
   padding: 10px 30px 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .header-row-1 {
@@ -133,8 +128,13 @@ input {
 .user-logo-small {
   width: 30px;
   height: 30px;
-  filter: brightness(0%);
   margin-left: 30px;
+  /* filter: brightness(0%); */
+}
+
+.user-logo-big {
+  width: 50px;
+  height: 50px;
 }
 
 .notification-icon {
@@ -162,7 +162,7 @@ button {
   gap: 15px;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .your-projects,
@@ -239,4 +239,10 @@ button {
   /* grid-area: ; */
   grid-template-columns: 1fr 3fr;
   align-items: center;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0%);
 }

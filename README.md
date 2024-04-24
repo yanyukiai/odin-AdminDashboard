@@ -8,4 +8,4 @@ You can access the live site [here](https://yanyukiai.github.io/odin-AdminDashbo
 
 ## Image Credit
 
-All of the icons used in this project were downloaded from [Material%20Design%20Icons](https://pictogrammers.com/library/mdi/).
+All of the icons used in this project were downloaded from [Material Design Icons](https://pictogrammers.com/library/mdi/).
