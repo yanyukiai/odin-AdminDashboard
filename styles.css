@@ -162,6 +162,7 @@ button {
   gap: 15px;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .your-projects,
@@ -174,6 +175,9 @@ button {
 .content-title {
   /* background-color: lightgreen; */
   align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .your-projects {
@@ -215,12 +219,12 @@ button {
 
 .announcement {
   background-color: white;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .trending-list {
   background-color: white;
-  padding: 20px 15px 20px;
+  padding: 10px 30px 10px;
   align-items: center;
   border-radius: 10px;
   margin: 0px;
@@ -234,4 +238,5 @@ button {
 .hot-uesr {
   /* grid-area: ; */
   grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
