@@ -8,4 +8,4 @@ You can access the live site [here](TBD)
 
 ## Image Credit
 
-## Scope of Work
+All of the icons used in this project were downloaded from [Material%20Design%20Icons] (https://pictogrammers.com/library/mdi/).
