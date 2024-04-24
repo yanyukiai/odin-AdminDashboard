@@ -4,8 +4,8 @@ This is the final project of the Intermediate HTML and CSS Course from The Odin 
 
 ## Live Site
 
-You can access the live site [here](TBD)
+You can access the live site [here](https://yanyukiai.github.io/odin-AdminDashboard/)
 
 ## Image Credit
 
-All of the icons used in this project were downloaded from [Material%20Design%20Icons] (https://pictogrammers.com/library/mdi/).
+All of the icons used in this project were downloaded from [Material%20Design%20Icons](https://pictogrammers.com/library/mdi/).
